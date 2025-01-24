@@ -1,5 +1,7 @@
 const display = document.getElementById("display");
 
+
+
 function addcalculator(input) {
   display.value += input;
 }
@@ -17,6 +19,21 @@ function spacecalculator() {
 }
 
 function negative() {
-  display.value = display.value.Math.sign(display.value);
+  display.value = -1 * display.value;
 }
 
+function cube() {
+  display.value = display.value * display.value * display.value;
+}
+
+function cube2() {
+  display.value = display.value * 2;
+}
+
+function sqrt() {
+  display.value = Math.sqrt(display.value);
+}
+
+function sqrt3() {
+  display.value = Math.cbrt(display.value);
+}
