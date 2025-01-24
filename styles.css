@@ -13,52 +13,73 @@ header{
     height: 50%;
     background-color: black;
 } */
- 
- body{
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
 
- }
- button {
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  background-color: white;
-  color: black;
-  font-size: 70px;
+  background-color: rgb(245, 219, 155);
+  color: white;
+  font-size: 65px;
   font-weight: bold;
- }
- #keys{
+  border-color: black;
+  box-shadow: 0px 5px;
+}
+
+#keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  border-color: rgb(166, 148, 167);
   gap: 10px;
-  background-color: rgb(126, 126, 126);
+  background-color: rgb(208, 204, 244);
   padding: 0px 40px 40px 40px;
   border: none;
-  
- }
- #calculator{
+
+}
+
+#calculator {
   border: none;
   max-width: 500px;
   overflow: hidden;
-  border-radius: 20px;
-  
- }
- #display{
+  border-radius: 30px;
+  border: 25px solid rgb(67, 48, 48);
+
+}
+
+#display {
   width: 77%;
   padding: 25px;
   font-size: 3rem;
-  background-color:rgb(202, 202, 202) ;
+  background-color: white;
   color: black;
-  border: none;
   border-radius: 20px;
- }
- .add{
+  border-color: rgb(159, 28, 28);
+
+}
+
+.add {
   width: 100%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(126, 126, 126);
- }
+  background-color: rgb(208, 204, 244);
+}
+.img{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+img{
+ width: 200px;
+ height: 200px;
+}
