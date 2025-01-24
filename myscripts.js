@@ -1,7 +1,5 @@
 const display = document.getElementById("display");
 
-
-
 function addcalculator(input) {
   display.value += input;
 }
@@ -23,7 +21,7 @@ function negative() {
 }
 
 function cube() {
-  display.value = display.value * display.value * display.value;
+  display.value = display.value * 2 * display.value;
 }
 
 function cube2() {

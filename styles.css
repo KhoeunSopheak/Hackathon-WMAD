@@ -4,6 +4,8 @@ body {
   background-color: rgba(118, 207, 255, 0.794);
   justify-content: center;
   align-items: center;
+  background-image: url('https://i.pinimg.com/736x/ca/98/55/ca9855c90b3a83e8c1ff278a8efecf81.jpg');
+  background-size: cover;
 
 }
 
