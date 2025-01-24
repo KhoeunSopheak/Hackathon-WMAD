@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>Hackathon WMAD</header>
-    <main></main>
-    <footer>@Hackathon WMAD 2025</footer>
-    <script src="myscripts.js"></script> 
+    <div id="calculator">
+        <div class="add"><input id="display" readonly></div>
+        
+        <div id="keys">
+            <button onclick="addcalculator('7')">7</button>
+            <button onclick="addcalculator('8')">8</button>
+            <button onclick="addcalculator('9')">9</button>
+            <button onclick="addcalculator('+')">+</button>
+            <button onclick="addcalculator('4')">4</button>
+            <button onclick="addcalculator('5')">5</button>
+            <button onclick="addcalculator('6')">6</button>
+            <button onclick="addcalculator('-')">-</button>
+            <button onclick="addcalculator('1')">1</button>
+            <button onclick="addcalculator('2')">2</button>
+            <button onclick="addcalculator('3')">3</button>
+            <button onclick="addcalculator('*')">x</button>
+            <button onclick="addcalculator('0')">0</button>
+            <button onclick="addcalculator('.')">.</button>
+            <button onclick="addcalculator('/')">/</button>
+            <button onclick="calculator()" style="background-color: rgb(214, 81, 81); color: white;">=</button>
+            <button onclick="clearcalculator()" style="background-color: rgb(214, 81, 81); color: white;">C</button>
+        </div>
+    </div>
 </body>
 </html>
